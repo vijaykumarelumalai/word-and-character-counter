@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Words & Character Count</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/189816.png" type="image/x-icon">
+</head>
+<body>
+<div class="cont">
+    <h2>Words and Character Counter</h2>
+    <textarea style="resize: none; outline: none;" id="message" cols="47" rows="14" class="text" onclick="changeText()" placeholder="Write some text or copy from anywhere"></textarea>
+    <button id="btnWordCount" onclick="countWords(1)">Count Words</button>
+    <button id="btnCharCount" onclick="countCharacters()">Count Characters</button>
+    <div id="show"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
